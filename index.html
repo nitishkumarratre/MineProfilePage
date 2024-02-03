@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/22120656d9.js" crossorigin="anonymous"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+    <title>Profile page !</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><b>Profile</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link " aria-current="page" href="index.html"><b>Home</b></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="about.html"><b>About</b></a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <b>Talent</b>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Coder</a></li>
+                            <li><a class="dropdown-item" href="#">Dancer</a></li>
+                            <li><a class="dropdown-item" href="#">Like a model !</a></li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Also like a professional !</a></li>
+                        </ul>
+                    <li class="nav-item active ">
+                        <a class="nav-link " href="contact.html"><b>Contact
+                                Me</b></a>
+                    </li>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <input style="border-radius: 1cm;" class="form-control me-2" type="search" placeholder="Search"
+                        aria-label="Search">
+                    <button style="border-radius: 1cm;" class="btn btn-outline-light" type="submit">Search</button>
+                    <space>1;</space>
+                    <a style="text-decoration: none; color: white;" href="index.html">
+
+                        <button style="border-radius: 1cm;" class="btn btn-danger">Login</a></button>
+                    </a>
+                    <space>1;</space>
+
+                    <button style="border-radius: 1cm;" class="btn btn-danger">SignUp</button>
+                    <space>1;</space>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Login Modal
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+
+    <!-- SignUp Modal
+    <div class="modal fade" id="sighUpModal" tabindex="-1" aria-labelledby="sighUpModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="sighUpModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="11.jfif" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Welcome to my kingdom !</h2>
+                    <p><b>This is the way of to contact me !</b></p>
+                    <a href="https://www.instagram.com/starkingshiva/" target="_blank"> <button class="btn btn-danger">
+                            Instagram</button></a>
+                    <a href="https://www.facebook.com/profile.php?id=100019232438761" target="_blank"> <button
+                            class="btn btn-primary"> Facebook</button></a>
+                    <a href="https://www.youtube.com/channel/UC3wjxL1-u-WRowVvPEsSh2g" target="_blank"> <button
+                            class="btn btn-success">youtube</button></a>
+                    <a href="https://www.linkedin.com/in/nitish-kumar-ratre-b8032620b/" target="_blank"> <button
+                            class="btn btn-danger"> Linkedin</button></a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="21.jfif" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Welcome to my kingdom !</h2>
+                    <p><b>The is the way of to contact me !</b></p>
+                    <a href="https://www.instagram.com/starkingshiva/" target="_blank"> <button class="btn btn-danger">
+                            Instagram</button></a>
+                    <a href="https://www.facebook.com/profile.php?id=100019232438761" target="_blank"> <button
+                            class="btn btn-primary"> Facebook</button></a>
+                    <a href="https://www.youtube.com/channel/UC3wjxL1-u-WRowVvPEsSh2g" target="_blank"> <button
+                            class="btn btn-success">youtube</button></a>
+                    <a href="https://www.linkedin.com/in/nitish-kumar-ratre-b8032620b/" target="_blank"> <button
+                            class="btn btn-danger"> Linkedin</button></a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="8.jfif" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Welcome to my kingdom !</h2>
+                    <p><b>This is the way of to contact me !</b></p>
+                    <a href="https://www.instagram.com/starkingshiva/" target="_blank"> <button class="btn btn-danger">
+                            Instagram</button></a>
+                    <a href="https://www.facebook.com/profile.php?id=100019232438761" target="_blank"> <button
+                            class="btn btn-primary"> Facebook</button></a>
+                    <a href="https://www.youtube.com/channel/UC3wjxL1-u-WRowVvPEsSh2g" target="_blank"> <button
+                            class="btn btn-success">youtube</button></a>
+                    <a href="https://www.linkedin.com/in/nitish-kumar-ratre-b8032620b/" target="_blank"> <button
+                            class="btn btn-danger"> Linkedin</button></a>
+                </div>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+    <div class="container img-fluid">
+        <div class="container my-4">
+            <div class="row mb-2">
+
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-primary">Student</strong>
+
+                            <h3 class="mb-0">NITISH KUMAR RATRE</h3>
+                            <div class="mb-1 text-muted">In college (present) </div>
+                            <p class="card-text mb-auto"><b>Student at-Kruti Institute of Technology and Engineering
+                                    (Raipur).</b>
+                            </p><br>
+                            <a href="https://www.krutiindia.in/kite/" target="_blank" class="stretched-link">About
+                                college</a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img class="img-fluid" width="200" height="250" src="thumb1kite.jpg" alt="">
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-primary">Student</strong>
+
+                            <h3 class="mb-0">NITISH KUMAR RATRE</h3>
+                            <div class="mb-1 text-muted">In college (Previous)</div>
+                            <p class="card-text mb-auto"><b>Student at-Shri Rawatpura Sarkar Institute of
+                                    Technology (Naya Raipur).</b>
+                            </p><br>
+                            <a href="http://www.sri.ac.in/" target="_blank" class="stretched-link">About college -
+                                (closed)</a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img class="img-fluid" width="200" height="250" src="thumb1.jpg" alt="">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-success">Student</strong>
+                            <h3 class="mb-0">NITISH KUMAR RATRE</h3>
+                            <div class="mb-1 text-muted">In school </div>
+                            <p class="mb-auto"><b>Student (was) Govt. Higher secondary School Tarenga , Baloda Bazar
+                                    Bhatapara Chhattisgarh 493118.</b></p>
+                            <a href="https://schools.org.in/balodabazar/22240206306/govt-higher-secondary-school-tarenga.html"
+                                target="_blank" class="stretched-link">About School</a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img class="img-fluid" width="200" height="400" src="thumb6.jpg" alt="">
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="https://www.facebook.com/profile.php?id=100019232438761" target="_blank">
+                    <i class="fa fa-facebook-f"></i><span>Facebook</span>
+                </a></li>
+            <li><a href="https://www.google.com/" target="_blank">
+                    <i class="fa fa-google"></i><span>Google</span>
+                </a></li>
+            <li> <a href="https://www.linkedin.com/in/nitish-kumar-ratre-b8032620b/" target="_blank">
+                    <i class="fa fa-linkedin"></i><span>Linkedin</span>
+                </a></li>
+            <li><a href="https://github.com/starkingshiva" target="_blank">
+                    <i class="fa fa-github"></i><span>Github</span>
+                </a></li>
+            <li><a href="https://www.instagram.com/starkingshiva/" target="_blank">
+                    <i class="fa fa-instagram"></i><span>Instagram</span>
+                </a></li>
+            <li><a href="https://www.youtube.com/channel/UC3wjxL1-u-WRowVvPEsSh2g" target="_blank">
+                    <i class="fa fa-youtube"></i><span>youtube</span>
+                </a></li>
+        </ul>
+    </nav>
+    <br>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">
+                <marquee direction="scroll" width="165%" scrollamount="7"> Welcome to My Kingdom ! <b>This is
+                        NITISH KUMAR RATRE !</b> (& my first website here --"Profile page")</marquee>
+
+            </span>
+        </div>
+    </nav>
+
+    <center>
+        <footer class="container my-2">
+            <p class="float-end"><a href="#">Back to top</a></p>
+
+            <p>© 2021–2022 Profile, @starkingshiva · <a href="index.html">Privacy</a> · <a href="about.html">Terms</a>
+            </p>
+        </footer>
+    </center>
+
+    <dark <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+            crossorigin="anonymous"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+</body>
+<!-- close the profile ! -->
+
+</html>
